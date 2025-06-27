@@ -1,0 +1,160 @@
+ body{
+    background-image: url(3.jpg );
+   background-size: cover;
+    background-repeat: no-repeat;
+   min-height: 100vh;
+}
+
+ 
+ .but1   {
+      width: 220px;
+      padding: 10px;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background-color: #f09433; /* Instagram gradient color start */
+      background-image: linear-gradient(315deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+      border: none;
+      color: white;
+      border-radius: 6px;
+      cursor: pointer;
+      border-radius: 25px;
+      height: 60px;
+      font-weight: bold;
+      
+
+    }
+
+    .but2   {
+      width: 220px;
+      padding: 10px;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+     background-color: #000000;
+background-image: linear-gradient(135deg, #69C9D0 0%, #EE1D52 50%, #000000 100%);
+
+      border: none;
+      color: white;
+      border-radius: 6px;
+      cursor: pointer;
+      border-radius: 25px;
+      height: 60px;
+      font-weight: bold;
+      
+
+    }
+
+
+.but3{
+  width: 220px;
+  padding: 10px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #0088cc; /* Telegram blue */
+  /* Optional gradient effect using Telegram tones */
+  background-image: linear-gradient(315deg, #0088cc 0%, #229ED9 100%);
+  border: none;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  height: 60px;
+  font-weight: bold;
+}
+
+
+
+.but4{
+   width: 220px;
+  padding: 10px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #25D366; /* WhatsApp green */
+  background-image: linear-gradient(315deg, #25D366 0%, #128C7E 100%);
+  border: none;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  height: 60px;
+  font-weight: bold;
+}
+
+
+    .div1 {
+      margin: 40px;
+      padding-top: 150px;
+      padding-left: 100px;
+    
+    }
+
+    .div1 button:hover {
+      opacity: 0.9;
+    }
+
+    h1{
+        color: white;
+      font-weight: bolder;
+        padding-left: 130px;
+    font-size: 50px;
+    width: 300px;
+
+    }
+
+  .backicon {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 24px;
+      font-size: 16px;
+      font-weight: 600;
+      background: linear-gradient(135deg, #4b6cb7, #182848);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .backicon i {
+      font-size: 18px;
+    }
+
+    .backicon:hover {
+      background: linear-gradient(135deg, #3a4d96, #0f1b38);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    button i{
+        font-size: 30px;
+    }
+
+
+
+
+    .footer{
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      align-items: center;
+      text-align: center;
+    }
+
+   .fotername{
+
+   color: #ff0000;
+   font-weight: bold;
+   font-size: 16px;
+   }
+  
